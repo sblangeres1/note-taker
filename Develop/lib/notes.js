@@ -26,4 +26,7 @@ function deleteNote(id, notes) {
       notes
     }, null, 2)
   )
+  return removed;
 };
+
+module.exports = { createNewNote, deleteNote };
